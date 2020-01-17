@@ -1,0 +1,40 @@
+.header__nav {
+  position: absolute;
+  width: 879px;
+  height: 35px;
+  right: 0;
+  top: 68px;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__item {
+  margin-right: 54px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__link {
+  /* Text_Misc/Nav */
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14.4px;
+  line-height: 30px;
+  text-decoration: none;
+
+  /* identical to box height */
+  letter-spacing: 2px;
+
+  /* Colors/White */
+  color: #FCFCFC;
+  opacity: 0.8;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active {
+  opacity: .4;
+}

@@ -5,6 +5,42 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'M PLUS 1p', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #30233D;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.intro {
+  height: 100vh;
+  background: url(./assets/img/intro-bg.png) no-repeat center;
+  background-size: cover;
+  padding-top: 252px;
 }
